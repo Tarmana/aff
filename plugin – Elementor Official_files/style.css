@@ -1,0 +1,25 @@
+/*
+Theme Name: elementor-official
+Template: twentytwentyfour
+Version: 3.0
+*/
+.elementor-widget-wp-widget-nav_menu ul,
+.elementor-widget-wp-widget-nav_menu li {
+	list-style: none;
+
+}
+.elementor-widget-wp-widget-nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+.elementor-widget-wp-widget-nav_menu li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.elementor-widget-wp-widget-nav_menu a {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	font-family: "DM Sans", Arial;
+}
