@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Centered Clickable Image</title>
+  <style>
+    /* Full white background and remove default margins */
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: #ffffff;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    /* Center content vertically & horizontally */
+    .center-wrap {
+      min-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Make image responsive while preserving aspect ratio */
+    .center-wrap a {
+      display: inline-block;
+      line-height: 0; /* remove inline gap */
+      outline: none;
+      text-decoration: none;
+    }
+
+    .center-wrap img {
+      max-width: 90vw;   /* don't overflow viewport width */
+      max-height: 90vh;  /* don't overflow viewport height */
+      width: auto;
+      height: auto;
+      display: block;
+      cursor: pointer;
+      border: 0;
+    }
+
+    /* Optional: give keyboard-focus outline on the link */
+    .center-wrap a:focus {
+      outline: 3px solid #6ca0ff;
+      outline-offset: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="center-wrap">
+    <a href="https://google.com" target="_blank" rel="noopener noreferrer" aria-label="Open Google">
+      <img
+        src="https://lh7-rt.googleusercontent.com/docsd/ANYlcfANCCv_MPj9nsuRtY5Ooo-ApKfdDRSDPizxTvDbnGekOKoykNLuJCRMVB0XEdlO4wqoQ9D4avXcJH7JZmb-c88fqr1YLJ_d9fCk_oCkZ70OHq7gFJebkHSTJ0Ztd379fPF431aSrpOLv5aoFlQ"
+        alt="Centered clickable image"
+      />
+    </a>
+  </div>
+</body>
+</html>
