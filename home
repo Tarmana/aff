@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Verify</title>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img {
+    max-width: 90vw;
+    max-height: 90vh;
+  }
+</style>
+</head>
+<body>
+  <img 
+    src="https://lh7-rt.googleusercontent.com/docsd/ANYlcfANCCv_MPj9nsuRtY5Ooo-ApKfdDRSDPizxTvDbnGekOKoykNLuJCRMVB0XEdlO4wqoQ9D4avXcJH7JZmb-c88fqr1YLJ_d9fCk_oCkZ70OHq7gFJebkHSTJ0Ztd379fPF431aSrpOLv5aoFlQ" 
+    alt="Centered clickable image"
+    onclick="window.location.href='https://couponco.de/s/hostinger'"
+  >
+</body>
+</html>
